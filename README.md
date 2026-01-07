@@ -13,18 +13,18 @@ and pattern-based learning.
 ## Run Locally
 
 ### Backend
-```bash
+
 cd backend
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
-
+---
 ### Frontend
 cd frontend
 npm install
 npm run dev
-
+---
 ### Sandbox
 cd backend/app/sandbox
 docker build -t algotrack-sandbox .
