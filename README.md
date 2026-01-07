@@ -21,10 +21,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ---
 ### Frontend
+
 cd frontend
 npm install
 npm run dev
 ---
 ### Sandbox
+
 cd backend/app/sandbox
 docker build -t algotrack-sandbox .
